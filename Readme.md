@@ -27,7 +27,8 @@ Nesse projeto é possível depositar e realizar transferências de dinheiro entr
 <img alt="api java + spring" src=".github/assets/cover.png" />
 </p>
 
-## VideoCase
+## VideoCase:
+https://github.com/user-attachments/assets/b5d190ea-db3a-4f5f-8ebd-836aeba3de8a
 
 
 ## Backend Java:
