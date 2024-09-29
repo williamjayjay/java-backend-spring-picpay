@@ -1,6 +1,10 @@
 <h1 align="center">Java Backend Spring (Desafio PicPay)</h1>
 
 <p align="center">
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/williamjayjay/java-backend-spring-picpay">
 
   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/williamjayjay/java-backend-spring-picpay" />
@@ -79,3 +83,65 @@ Para garantir o funcionamento adequado da nossa aplicação, verifique abaixo:
 
 - [x] Tratar os erros exception para uma forma amigável como response.
 
+
+## API Endpoints
+A api provê os seguintes endpoints:
+
+**GET USERS**
+```markdown
+GET /users - Recupera uma lista de todos os usuários.
+```
+```json
+[
+    {
+        "id": 1,
+        "firstName": "William",
+        "lastName": "Silva",
+        "document": "123456787",
+        "email": "william@mail.com",
+        "password": "senha123",
+        "balance": 10.00,
+        "userType": "MERCHANT"
+    },
+    {
+        "id": 4,
+        "firstName": "Jorge",
+        "lastName": "Silva",
+        "document": "12342223",
+        "email": "jorge@mail.com",
+        "password": "senha321",
+        "balance": 50.00,
+        "userType": "COMMON"
+    }
+]
+```
+
+**POST USERS**
+```markdown
+POST /users - Registrar um novo usuário na aplicação
+```
+```json
+{
+    "firstName": "William",
+    "lastName": "Silva",
+    "password": "senha123",
+    "document": "123456787",
+    "email": "william@mail.com",
+    "userType": "COMMON",
+    "balance": 10
+}
+```
+
+**POST TRANSACTIONS**
+```markdown
+POST /transactions - Registra uma nova transação entre os usuários (COMMON para COMMON ou COMMON para MERCHANT)
+```
+
+```json
+
+{
+  "senderId": 4,
+  "receiverId": 1,
+  "value": 10
+}
+```
