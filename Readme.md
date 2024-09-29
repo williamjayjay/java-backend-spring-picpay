@@ -1,10 +1,6 @@
 <h1 align="center">Java Backend Spring (Desafio PicPay)</h1>
 
 <p align="center">
-
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/williamjayjay/java-backend-spring-picpay">
 
   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/williamjayjay/java-backend-spring-picpay" />
